@@ -54,5 +54,25 @@ export const productsData: Product[] = [
     id: "industrial-knife-cutters",
     name: "Industrial Knife Cutters",
     image: "/images/prod-1.png"
+  },
+  {
+    id: "circular-punch-knives",
+    name: "Circular Punch Knives",
+    image: "/images/prod-11.jpg"
+  },
+  {
+    id: "custom-machine-knives",
+    name: "Custom Machine Knives",
+    image: "/images/prod-12.jpg"
+  },
+  {
+    id: "packaging-sealing-blades",
+    name: "Packaging Sealing Blades",
+    image: "/images/prod-13.jpg"
+  },
+  {
+    id: "toothed-cut-off-blades",
+    name: "Toothed Cut-Off Blades",
+    image: "/images/prod-14.jpg"
   }
 ];
