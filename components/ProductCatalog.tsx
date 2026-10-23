@@ -86,36 +86,24 @@ export default function ProductCatalog({
             >
               {/* Product Image Frame: Slightly Full Width with Interactive Full Company Logo */}
               <div className={`relative w-full h-64 sm:h-72 bg-white border-b border-gray-100 flex items-center justify-center overflow-hidden ${isSharedImage ? "px-1 sm:px-1.5 py-2 sm:py-3" : "p-2 sm:p-3"}`}>
-                {/* Interactive Official Hallmark Corner Seal (Sample 1) */}
-                <div className="absolute top-2.5 right-2.5 sm:top-3 sm:right-3 z-10">
+                {/* Full Image Protective Hallmark Watermark (Option 2) */}
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-5 opacity-[0.16] -rotate-12 transition-opacity duration-300 group-hover:opacity-25">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/images/company-logo.png"
+                    alt="Perfect Knives Hallmark Watermark"
+                    className="w-[72%] sm:w-[68%] max-w-[280px] object-contain filter contrast-125 select-none"
+                  />
+                </div>
+
+                {/* Hallmark Authenticity Corner Stamp */}
+                <div className="absolute bottom-2.5 right-2.5 sm:bottom-3 sm:right-3 z-10">
                   <div
-                    title="Perfect Knives® Official Certified OEM Hallmark"
-                    className="group/logo relative flex items-center gap-2 px-2.5 py-1 sm:px-3 sm:py-1.5 bg-white/95 hover:bg-white backdrop-blur-md border-2 border-[#ea130e] rounded-md shadow-xs hover:shadow-lg hover:shadow-red-500/20 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    title="Perfect Knives® Certified Hallmark"
+                    className="flex items-center gap-1.5 px-2.5 py-1 bg-black/90 hover:bg-black text-white rounded text-[8px] sm:text-[9px] font-extrabold uppercase tracking-wider shadow-md backdrop-blur-xs border border-white/20 transition-all duration-300 hover:border-[#ea130e]"
                   >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src="/images/company-logo.png"
-                      alt="Perfect Knives Official Logo"
-                      className="h-6 sm:h-7.5 w-auto object-contain transition-transform duration-300 group-hover/logo:scale-105"
-                    />
-
-                    {/* Hallmark Certification Tag */}
-                    <div className="flex flex-col border-l border-gray-200 pl-2 leading-tight">
-                      <span className="text-[8px] sm:text-[8.5px] font-black text-[#111111] uppercase tracking-wider">
-                        HALLMARK
-                      </span>
-                      <span className="text-[7px] sm:text-[7.5px] font-extrabold text-[#ea130e] uppercase tracking-wider">
-                        GENUINE OEM
-                      </span>
-                    </div>
-
-                    {/* Interactive Tooltip on Hover */}
-                    <div className="absolute right-0 top-full mt-2 hidden group-hover/logo:flex flex-col items-end pointer-events-none z-20">
-                      <div className="w-2 h-2 bg-black rotate-45 mr-4 -mb-1"></div>
-                      <div className="px-2.5 py-1 bg-black text-white text-[10px] font-bold rounded shadow-lg whitespace-nowrap tracking-wider uppercase">
-                        Perfect Knives® Certified OEM Hallmark
-                      </div>
-                    </div>
+                    <span className="text-[#ea130e] text-xs leading-none">★</span>
+                    <span>PERFECT KNIVES HALLMARK</span>
                   </div>
                 </div>
 
