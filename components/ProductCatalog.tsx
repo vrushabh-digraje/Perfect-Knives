@@ -77,13 +77,15 @@ export default function ProductCatalog({
 
         {/* Products Grid with full-width images */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {displayedProducts.map((prod) => (
+          {displayedProducts.map((prod) => {
+            const isSharedImage = !["packaging-sealing-blades", "toothed-cut-off-blades"].includes(prod.id);
+            return (
             <div
               key={prod.id}
               className="group relative bg-white border border-gray-200 hover:border-[#ea130e] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between"
             >
               {/* Product Image Frame: Slightly Full Width with Interactive Full Company Logo */}
-              <div className="relative w-full h-64 sm:h-72 bg-white border-b border-gray-100 p-2 sm:p-3 flex items-center justify-center overflow-hidden">
+              <div className={`relative w-full h-64 sm:h-72 bg-white border-b border-gray-100 flex items-center justify-center overflow-hidden ${isSharedImage ? "px-1 sm:px-1.5 py-2 sm:py-3" : "p-2 sm:p-3"}`}>
                 {/* Interactive Full Company Logo in Corner */}
                 <div className="absolute top-2.5 right-2.5 sm:top-3 sm:right-3 z-10">
                   <div
@@ -111,7 +113,11 @@ export default function ProductCatalog({
                 <img
                   src={prod.image}
                   alt={prod.name}
-                  className="w-full h-full object-contain filter drop-shadow-sm transition-transform duration-500 group-hover:scale-105"
+                  className={`w-full h-full object-contain filter drop-shadow-sm transition-transform duration-500 ${
+                    isSharedImage
+                      ? "scale-105 sm:scale-110 group-hover:scale-115"
+                      : "group-hover:scale-105"
+                  }`}
                   loading="lazy"
                 />
               </div>
@@ -131,7 +137,8 @@ export default function ProductCatalog({
                 </button>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* CTA Button: EXPLORE ALL PRODUCTS */}
