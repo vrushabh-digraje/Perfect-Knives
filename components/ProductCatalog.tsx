@@ -82,26 +82,31 @@ export default function ProductCatalog({
               key={prod.id}
               className="group relative bg-white border border-gray-200 hover:border-[#ea130e] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between"
             >
-              {/* Product Image Frame: Slightly Full Width with Interactive Company Logo in Corner */}
+              {/* Product Image Frame: Slightly Full Width with Interactive Circular "pk" Brand Seal */}
               <div className="relative w-full h-64 sm:h-72 bg-white border-b border-gray-100 p-2 sm:p-3 flex items-center justify-center overflow-hidden">
-                {/* Interactive Company Logo in Corner */}
+                {/* Interactive Circular "pk" Brand Seal Hallmark (Option 2) */}
                 <div className="absolute top-2.5 right-2.5 sm:top-3 sm:right-3 z-10">
                   <div
-                    title="Perfect Knives Official Brand"
-                    className="group/logo relative flex items-center gap-1.5 px-2 py-1 bg-white/95 hover:bg-white backdrop-blur-md border border-gray-200 hover:border-[#ea130e] rounded shadow-xs hover:shadow-md transition-all duration-300 cursor-pointer"
+                    title="Perfect Knives® Genuine OEM"
+                    className="group/logo relative flex items-center justify-center w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-white/95 hover:bg-white backdrop-blur-md border-2 border-[#ea130e] shadow-sm hover:shadow-lg hover:shadow-red-500/20 transition-all duration-300 hover:scale-110 cursor-pointer p-1"
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/images/company-logo.png"
-                      alt="Perfect Knives Company Logo"
-                      className="h-5 sm:h-6 w-auto object-contain transition-transform duration-300 group-hover/logo:scale-110"
+                      src="/images/pk-emblem.png"
+                      alt="Perfect Knives Official Emblem"
+                      className="w-full h-full object-contain transition-transform duration-300 group-hover/logo:rotate-12"
                     />
 
+                    {/* Micro Hallmark Stamp Tag */}
+                    <span className="absolute -bottom-1.5 px-1.5 py-0.2 bg-black text-white text-[7px] sm:text-[8px] font-extrabold uppercase tracking-widest rounded-full shadow-xs border border-white">
+                      GENUINE
+                    </span>
+
                     {/* Interactive Tooltip on Hover */}
-                    <div className="absolute right-0 top-full mt-1.5 hidden group-hover/logo:flex flex-col items-end pointer-events-none z-20">
-                      <div className="w-2 h-2 bg-black rotate-45 mr-3 -mb-1"></div>
+                    <div className="absolute right-0 top-full mt-2 hidden group-hover/logo:flex flex-col items-end pointer-events-none z-20">
+                      <div className="w-2 h-2 bg-black rotate-45 mr-4 -mb-1"></div>
                       <div className="px-2.5 py-1 bg-black text-white text-[10px] font-bold rounded shadow-lg whitespace-nowrap tracking-wider uppercase">
-                        Perfect Knives® Genuine
+                        Perfect Knives® Genuine OEM
                       </div>
                     </div>
                   </div>
