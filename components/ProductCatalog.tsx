@@ -84,11 +84,11 @@ export default function ProductCatalog({
             >
               {/* Product Image Frame: Slightly Full Width with Interactive Full Company Logo */}
               <div className="relative w-full h-64 sm:h-72 bg-white border-b border-gray-100 p-2 sm:p-3 flex items-center justify-center overflow-hidden">
-                {/* Interactive Official Hallmark Corner Seal (Sample 1) */}
+                {/* Interactive Full Company Logo in Corner */}
                 <div className="absolute top-2.5 right-2.5 sm:top-3 sm:right-3 z-10">
                   <div
-                    title="Perfect Knives® Official Certified OEM Hallmark"
-                    className="group/logo relative flex items-center gap-2 px-2.5 py-1 sm:px-3 sm:py-1.5 bg-white/95 hover:bg-white backdrop-blur-md border-2 border-[#ea130e] rounded-md shadow-xs hover:shadow-lg hover:shadow-red-500/20 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    title="Perfect Knives® Official Brand"
+                    className="group/logo relative flex items-center px-2.5 py-1 sm:px-3 sm:py-1.5 bg-white/95 hover:bg-white backdrop-blur-md border border-gray-200 rounded-md shadow-xs hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer"
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
@@ -97,21 +97,11 @@ export default function ProductCatalog({
                       className="h-6 sm:h-7.5 w-auto object-contain transition-transform duration-300 group-hover/logo:scale-105"
                     />
 
-                    {/* Hallmark Certification Tag */}
-                    <div className="flex flex-col border-l border-gray-200 pl-2 leading-tight">
-                      <span className="text-[8px] sm:text-[8.5px] font-black text-[#111111] uppercase tracking-wider">
-                        HALLMARK
-                      </span>
-                      <span className="text-[7px] sm:text-[7.5px] font-extrabold text-[#ea130e] uppercase tracking-wider">
-                        GENUINE OEM
-                      </span>
-                    </div>
-
                     {/* Interactive Tooltip on Hover */}
-                    <div className="absolute right-0 top-full mt-2 hidden group-hover/logo:flex flex-col items-end pointer-events-none z-20">
+                    <div className="absolute right-0 top-full mt-1.5 hidden group-hover/logo:flex flex-col items-end pointer-events-none z-20">
                       <div className="w-2 h-2 bg-black rotate-45 mr-4 -mb-1"></div>
                       <div className="px-2.5 py-1 bg-black text-white text-[10px] font-bold rounded shadow-lg whitespace-nowrap tracking-wider uppercase">
-                        Perfect Knives® Certified OEM Hallmark
+                        Perfect Knives® Genuine OEM
                       </div>
                     </div>
                   </div>
