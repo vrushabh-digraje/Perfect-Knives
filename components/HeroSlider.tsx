@@ -71,7 +71,7 @@ export default function HeroSlider() {
 
             {/* Content Container */}
             <div className="relative z-20 max-w-7xl mx-auto h-full px-6 sm:px-12 flex flex-col justify-center">
-              <div className="max-w-3xl lg:max-w-4xl space-y-4 sm:space-y-5">
+              <div className="w-full max-w-5xl lg:max-w-6xl xl:max-w-full space-y-4 sm:space-y-5">
                 {/* Tag */}
                 <div className="text-[#ea130e] text-sm sm:text-base lg:text-lg font-bold tracking-widest uppercase">
                   {slide.tag}
@@ -81,8 +81,8 @@ export default function HeroSlider() {
                 <h1
                   className={`font-bold text-white tracking-tight ${
                     slide.id === 1
-                      ? "text-2xl sm:text-3xl md:text-4xl lg:text-[42px] leading-snug sm:leading-tight lg:leading-[1.2]"
-                      : "text-4xl sm:text-5xl lg:text-6xl leading-tight"
+                      ? "text-2xl sm:text-3xl md:text-4xl lg:text-[42px] leading-snug sm:leading-tight lg:leading-[1.2] max-w-6xl"
+                      : "text-4xl sm:text-5xl lg:text-6xl leading-tight max-w-3xl"
                   }`}
                 >
                   {slide.title}
