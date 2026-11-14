@@ -6,7 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import PreFooterBanner from "@/components/PreFooterBanner";
 
 export const metadata: Metadata = {
-  title: "FAQ | Perfect Knives",
+  title: "FAQ",
   description:
     "FAQ Home FAQ FAQ's Get every single answers here. What types of industrial knives and cutting blades does PerfectKnives offer?"
 };

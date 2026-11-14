@@ -6,7 +6,7 @@ import ContactSection from "@/components/ContactSection";
 import PreFooterBanner from "@/components/PreFooterBanner";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Perfect Knives",
+  title: "Contact Us",
   description:
     "Contact us Home Contact us Contact Form Feel Free to Contact us any time. we will get back to you as soon as we can't"
 };

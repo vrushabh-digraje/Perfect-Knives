@@ -6,7 +6,7 @@ import PreFooterBanner from "@/components/PreFooterBanner";
 import { Award, Target, ShieldCheck, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | Perfect Knives",
+  title: "About Us",
   description:
     "At Perfect Engineering Works, we specialize in manufacturing industrial knives and cutting blades designed to meet the demanding requirements of modern industries."
 };

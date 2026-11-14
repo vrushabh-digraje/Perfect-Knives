@@ -6,7 +6,7 @@ import ProductCatalog from "@/components/ProductCatalog";
 import PreFooterBanner from "@/components/PreFooterBanner";
 
 export const metadata: Metadata = {
-  title: "Products | Perfect Knives",
+  title: "Products",
   description:
     "Products Home Products Tray Sealing Knives Thumb Blade Guillotine Knives Zig zag cutter with Anvil Slitter Knives Slitting Cutters Circular Knives Cut Off Knives Slitting Cutters Industrial Knife Cutters"
 };
