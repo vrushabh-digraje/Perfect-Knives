@@ -214,18 +214,13 @@ export default function Footer() {
       <div className="border-t border-[#1a1a1a] bg-[#050505] py-6 text-xs text-[#777777]">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <p>
-            Copyright &copy; by <strong className="text-white font-semibold">Perfect Knives Pvt Ltd</strong> | All rights reserved
+            Copyright &copy; 2026 by <strong className="text-white font-semibold">Perfect Knives Pvt Ltd</strong> | All rights reserved
           </p>
           <p className="flex items-center gap-1">
             Designed &amp; Managed by{" "}
-            <a
-              href="https://sitecraftix.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-[#ea130e] hover:underline font-bold"
-            >
-              SiteCraftix
-            </a>
+            <span className="text-[#ea130e] font-bold">
+              Aidamsole Agile Services Pvt Ltd
+            </span>
           </p>
         </div>
       </div>

@@ -168,7 +168,7 @@ export default function QuickContactDrawer({ isOpen, onClose }: QuickContactDraw
 
         {/* Footer */}
         <div className="pt-4 border-t border-[#222222] text-center text-xs text-[#666666]">
-          <span>&copy; SiteCraftix</span>
+          <span>&copy; 2026 Perfect Knives Pvt Ltd</span>
         </div>
       </div>
     </div>
