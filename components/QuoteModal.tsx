@@ -66,7 +66,7 @@ export default function QuoteModal({ isOpen, onClose, initialProductId }: QuoteM
   const handleSendWhatsApp = () => {
     const selectedProd = productsData.find((p) => p.id === formData.productId)?.name || "Industrial Blades";
     const text = encodeURIComponent(
-      `Hello Perfect Knives, I would like to request a quotation:\n\n*Product:* ${selectedProd}\n*Name:* ${formData.name}\n*Company:* ${formData.company || "N/A"}\n*Phone:* ${formData.phone}\n*Material:* ${formData.material}\n*Dimensions:* ${formData.dimensions || "Standard"}\n*Quantity:* ${formData.quantity}\n*Notes:* ${formData.message || "Please provide price & lead time."}`
+      `Hello Perfect Knives Pvt Ltd, I would like to request a quotation:\n\n*Product:* ${selectedProd}\n*Name:* ${formData.name}\n*Company:* ${formData.company || "N/A"}\n*Phone:* ${formData.phone}\n*Material:* ${formData.material}\n*Dimensions:* ${formData.dimensions || "Standard"}\n*Quantity:* ${formData.quantity}\n*Notes:* ${formData.message || "Please provide price & lead time."}`
     );
     window.open(`https://wa.me/919967882739?text=${text}`, "_blank");
   };

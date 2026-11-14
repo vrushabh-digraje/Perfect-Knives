@@ -37,7 +37,7 @@ export default function AboutSection() {
           <div className="lg:col-span-7 space-y-6">
             <div className="space-y-2">
               <span className="text-xs font-bold uppercase tracking-widest text-[#ea130e] block">
-                ABOUT PERFECT KNIVES
+                ABOUT PERFECT KNIVES PVT LTD
               </span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1e1e1e] tracking-tight leading-tight">
                 Engineering Cutting Solutions
@@ -45,7 +45,7 @@ export default function AboutSection() {
             </div>
 
             <p className="text-[#575757] text-sm sm:text-base leading-relaxed">
-              At Perfect Knives, we specialize in industrial knives and cutting blades designed for precision,
+              At Perfect Knives Pvt Ltd, we specialize in industrial knives and cutting blades designed for precision,
               durability, and dependable performance. We understand that cutting tools play an important role in
               maintaining production efficiency, product consistency, and manufacturing quality.
             </p>

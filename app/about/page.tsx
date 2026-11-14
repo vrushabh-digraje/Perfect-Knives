@@ -61,7 +61,7 @@ export default function AboutPage() {
           <div className="lg:col-span-7 space-y-6">
             <div className="space-y-2">
               <span className="text-xs font-bold uppercase tracking-widest text-[#ea130e] block">
-                ABOUT PERFECT KNIVES
+                ABOUT PERFECT KNIVES PVT LTD
               </span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1e1e1e] tracking-tight">
                 Engineering Precision. Delivering Performance.

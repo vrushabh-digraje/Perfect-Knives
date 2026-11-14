@@ -214,7 +214,7 @@ export default function Footer() {
       <div className="border-t border-[#1a1a1a] bg-[#050505] py-6 text-xs text-[#777777]">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <p>
-            Copyright &copy; by <strong className="text-white font-semibold">Perfect Knives</strong> | All rights reserved
+            Copyright &copy; by <strong className="text-white font-semibold">Perfect Knives Pvt Ltd</strong> | All rights reserved
           </p>
           <p className="flex items-center gap-1">
             Designed &amp; Managed by{" "}

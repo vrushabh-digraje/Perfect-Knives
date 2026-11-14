@@ -7,10 +7,10 @@ export default function FloatingWhatsApp() {
   return (
     <aside aria-label="WhatsApp quick chat" className="fixed bottom-6 right-6 z-40 group">
       <a
-        href={`https://wa.me/919967882739?text=${encodeURIComponent("Hello Perfect Knives, I would like to inquire about industrial cutting blades.")}`}
+        href={`https://wa.me/919967882739?text=${encodeURIComponent("Hello Perfect Knives Pvt Ltd, I would like to inquire about industrial cutting blades.")}`}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with Perfect Knives on WhatsApp"
+        aria-label="Chat with Perfect Knives Pvt Ltd on WhatsApp"
         className="relative flex items-center justify-center w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300"
       >
         <span className="absolute -top-1 -right-1 flex h-4 w-4">

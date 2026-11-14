@@ -1,5 +1,5 @@
 export const companyInfo = {
-  name: "Perfect Knives",
+  name: "Perfect Knives Pvt Ltd",
   phone: "+91 9967882739",
   email: "accuratemachinerysg@gmail.com",
   address: "Unit no 112 Devendra Industrial Estate Yashodhan Nagar Lokmanya Nagar Thane West 400606",

@@ -7,12 +7,12 @@ export interface FAQItem {
 export const faqData: FAQItem[] = [
   {
     id: "faq-1",
-    question: "What types of industrial knives and cutting blades does PerfectKnives offer?",
-    answer: "PerfectKnives offers industrial knives and cutting blades for various manufacturing and material-processing applications. Depending on the available product range, these may include circular knives, slitting knives, plastic cutting blades, paper cutting knives, metal cutting blades, and other specialized industrial blades."
+    question: "What types of industrial knives and cutting blades does Perfect Knives Pvt Ltd offer?",
+    answer: "Perfect Knives Pvt Ltd offers industrial knives and cutting blades for various manufacturing and material-processing applications. Depending on the available product range, these may include circular knives, slitting knives, plastic cutting blades, paper cutting knives, metal cutting blades, and other specialized industrial blades."
   },
   {
     id: "faq-2",
-    question: "Which industries use PerfectKnives products?",
+    question: "Which industries use Perfect Knives Pvt Ltd products?",
     answer: "Industrial knives are used across industries such as plastic processing, paper and packaging, metalworking, textile manufacturing, rubber processing, and film and foil production. Product suitability depends on the specific application and the machinery being used."
   },
   {
@@ -52,7 +52,7 @@ export const faqData: FAQItem[] = [
   },
   {
     id: "faq-10",
-    question: "How can I contact PerfectKnives for product enquiries?",
-    answer: "You can contact PerfectKnives through the website's enquiry form or the official business contact details listed on our Contact Us page. Include your product requirements and application details so that your enquiry can be assessed efficiently."
+    question: "How can I contact Perfect Knives Pvt Ltd for product enquiries?",
+    answer: "You can contact Perfect Knives Pvt Ltd through the website's enquiry form or the official business contact details listed on our Contact Us page. Include your product requirements and application details so that your enquiry can be assessed efficiently."
   }
 ];

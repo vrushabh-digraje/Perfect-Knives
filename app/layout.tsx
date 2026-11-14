@@ -20,8 +20,8 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL("https://sitecraftix.com/perfectknives"),
   title: {
-    default: "Perfect Knives - Industrial Knives & Cutting Blades Manufacturer",
-    template: "Perfect Knives - %s"
+    default: "Perfect Knives Pvt Ltd - Industrial Knives & Cutting Blades Manufacturer",
+    template: "Perfect Knives Pvt Ltd - %s"
   },
   description:
     "Leading manufacturer of high-precision industrial knives, slitting blades, circular cutters, tray sealing knives, and custom guillotine blades. Based in Thane / Nashik, Maharashtra, India. Established 1985.",
@@ -48,13 +48,13 @@ export const metadata: Metadata = {
     "Perfect Engineering Works",
     "machine knives India"
   ],
-  authors: [{ name: "Perfect Knives" }],
+  authors: [{ name: "Perfect Knives Pvt Ltd" }],
   openGraph: {
-    title: "Perfect Knives | Precision Industrial Cutting Solutions",
+    title: "Perfect Knives Pvt Ltd | Precision Industrial Cutting Solutions",
     description:
       "Engineering cutting solutions with state-of-the-art CNC grinding, vacuum heat treatment, and precision metallurgical inspection.",
     url: "https://sitecraftix.com/perfectknives/",
-    siteName: "Perfect Knives",
+    siteName: "Perfect Knives Pvt Ltd",
     images: [
       {
         url: "/images/hero-1.png",

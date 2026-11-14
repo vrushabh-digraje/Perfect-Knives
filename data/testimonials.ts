@@ -18,7 +18,7 @@ export const testimonialsData: Testimonial[] = [
     id: "test-2",
     name: "Amit Patel",
     role: "Production Manager",
-    quote: "Precision is essential in our manufacturing process, and the cutting tools we use play an important role. Perfect Knives offers products designed around industrial requirements and consistent performance.",
+    quote: "Precision is essential in our manufacturing process, and the cutting tools we use play an important role. Perfect Knives Pvt Ltd offers products designed around industrial requirements and consistent performance.",
     avatarText: "AP"
   },
   {

@@ -198,7 +198,7 @@ export default function ContactSection({ showTitle = true }: ContactSectionProps
         {/* Embedded Map */}
         <div className="overflow-hidden border border-gray-300 shadow-md bg-gray-100 h-80 relative">
           <iframe
-            title="Perfect Knives Factory Location"
+            title="Perfect Knives Pvt Ltd Factory Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.146200236402!2d72.9515!3d19.1882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b901a1a55555%3A0x1!2sLokmanya+Nagar%2C+Thane+West%2C+Maharashtra+400606!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
             className="w-full h-full border-0"
             loading="lazy"
