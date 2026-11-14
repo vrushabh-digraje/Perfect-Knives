@@ -8,7 +8,8 @@ const slides = [
   {
     id: 1,
     tag: "PRECISION ENGINEERING",
-    title: "Industrial Knives for Precision",
+    title:
+      "We are Leading Industrial Knife Cutter Blade, Perforation Knife, Slitting Cutter, Textile Blade & Sealing Jaw Manufacturer & Supplier in Mumbai, Maharashtra",
     image: "/images/hero-1.png",
     buttonText: "Contact Us",
     buttonLink: "/contact"
@@ -70,14 +71,20 @@ export default function HeroSlider() {
 
             {/* Content Container */}
             <div className="relative z-20 max-w-7xl mx-auto h-full px-6 sm:px-12 flex flex-col justify-center">
-              <div className="max-w-2xl lg:max-w-3xl space-y-5">
+              <div className="max-w-3xl lg:max-w-4xl space-y-4 sm:space-y-5">
                 {/* Tag */}
-                <div className="text-[#ea130e] text-base sm:text-lg font-bold tracking-widest uppercase">
+                <div className="text-[#ea130e] text-sm sm:text-base lg:text-lg font-bold tracking-widest uppercase">
                   {slide.tag}
                 </div>
 
                 {/* Main Title */}
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight">
+                <h1
+                  className={`font-bold text-white tracking-tight ${
+                    slide.id === 1
+                      ? "text-2xl sm:text-3xl md:text-4xl lg:text-[42px] leading-snug sm:leading-tight lg:leading-[1.2]"
+                      : "text-4xl sm:text-5xl lg:text-6xl leading-tight"
+                  }`}
+                >
                   {slide.title}
                 </h1>
 
